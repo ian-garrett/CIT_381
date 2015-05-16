@@ -1,0 +1,61 @@
+
+
+<html>
+<head>
+       <title>Find Employees with Skill and display associated Region</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body bgcolor="white">
+  <div id="text">
+<h3>Find Employees by Skill</h3>
+
+<p>
+	Please select a Skill:
+<p>
+
+
+<form action="skillidEmployeeRegion.php" method="POST">
+<input type="submit" value="submit">
+<select name="state">
+	<option value="1">Data Entry I</option>
+	<option value="2">Data Entry II</option>
+	<option value="3">System Analyst I</option>
+	<option value="4">System Analyst II</option>
+	<option value="5">DB Designer I</option>
+	<option value="6">DB Designer II</option>
+	<option value="7">Cobol I</option>
+	<option value="8">Cobol II</option>
+	<option value="9">C++ I</option>
+	<option value="10">C++ II</option>
+	<option value="11">VB I</option>
+	<option value="12">VB II</option>
+	<option value="13">ColdFusion I</option>
+	<option value="14">ColdFusion II</option>
+	<option value="15">ASP I</option>
+	<option value="16">ASP II</option>
+	<option value="17">Oracle DBA</option>
+	<option value="18">SQL Server DBA</option>
+	<option value="19">Network Engineer I</option>
+	<option value="20">Network Engineer II</option>
+	<option value="21">Technical Writer</option>
+	<option value="22">Web Administrator</option>
+	<option value="23">Project Manager</option>
+
+</select>
+<input type="reset" value="erase">
+</form>
+
+
+
+<hr>
+
+
+(And the <a href="connectionData.txt" >connection data</a>,
+kept separately for security reasons.)
+
+
+
+<button><a href="index.html">Home</a></button>
+</body>
+</html>

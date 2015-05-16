@@ -1,0 +1,11 @@
+body{
+
+background-image: url(matrix.gif);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#text{
+
+	background-color: white;
+}
